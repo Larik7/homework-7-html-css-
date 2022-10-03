@@ -1,10 +1,10 @@
-:root {
+/* :root { */
   /* Fonts */
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  /* --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif; */
 
   /* Text colors */
-  --main-txt-cl: #212121;
+  /* --main-txt-cl: #212121;
   --second-txt-cl: #757575;
   --light-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
@@ -12,9 +12,9 @@
   --logo-second-txt-cl: #000000;
   --logo-second-alt-txt-cl: #ffffff;
   --light-txt-cl-60: rgba(255, 255, 255, 0.6);
-  
+   */
   /* Background colors */
-  --accent-bg-cl: #f5f5f5;
+  /* --accent-bg-cl: #f5f5f5;
   --main-bg-cl: #ffffff;
   --second-bg-cl: #2f303a;
   --btn-filter-bg-cl: #f5f4fa;
@@ -22,15 +22,15 @@
   --btn-hero-cl: #2196f3;
   --bnt-act-cl: #188ce8;
   --team-bg-cl: #f5f4fa;
-  --footer-icon-bg-cl: rgba(255, 255, 255, 0.1);
+  --footer-icon-bg-cl: rgba(255, 255, 255, 0.1); */
 
   /* Others */
-  --icon-clients: #AFB1B8;
+  /* --icon-clients: #AFB1B8;
   --footer-icon-clients: #FFFFFF;
-  --anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  --anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* } */
 
-.page {
+/* .page {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -38,11 +38,11 @@
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
   background-color: var(--main-bg-cl);
-}
+} */
 
 /* Reset style */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -83,13 +83,13 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
-}
+  outline: 2px solid red;
+  outline-offset: -2px;
+} */
 
 /* Header */
 
-.logo-first-part {
+/* .logo-first-part {
   color: var(--logo-first-txt-cl);
   font-family: var(--secondary-font);
   font-style: normal;
@@ -109,9 +109,9 @@ img {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   text-decoration: none;
-}
+} */
 
-.container-header {
+/* .container-header {
   display: flex;
   align-items: center;
 }
@@ -191,13 +191,13 @@ img {
 .page-header .link:hover,
 .page-header .link:focus {
   color: var(--accent-txt-cl);
-}
+} */
 
 
 
 /* Hero */
 
-.hero {
+/* .hero {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -208,9 +208,9 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.hero__title {
+/* .hero__title {
   width: 696px;
   margin-right: auto;
   margin-left: auto;
@@ -222,9 +222,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--light-txt-cl);
-}
+} */
 
-.hero__button {
+/* .hero__button {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -252,11 +252,11 @@ img {
 
 .hero__button:active {
   background-color: var(--bnt-act-cl);
-}
+} */
 
 /* features */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -267,7 +267,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .features__list {
   display: flex;
