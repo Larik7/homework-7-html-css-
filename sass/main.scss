@@ -1,8 +1,8 @@
 // utils styles
 @import './utils/vars';
+@import './utils/reset';
 @import './utils/visually-hidden';
 // components styles
-@import './components/reset';
 @import './components/page-header';
 @import './components/logo';
 @import './components/hero';
@@ -18,11 +18,7 @@
 @import './components/footer-socials';
 @import './components/footer-form';
 @import './components/footer-btn';
-// @import './components';
-// @import './components';
-// @import './components';
-// @import './components';
-// @import './components';
-// @import './components';
-// @import './components';
-// @import './components';
+@import './components/portfolio';
+@import './components/portfolio-btn';
+@import './components/modal';
+@import './components/modal-btn';

@@ -628,14 +628,14 @@ img {
 
 /* portfolio */
 
-.portfolio-container {
+/* .portfolio-container {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-}
+} */
 
-.filter-list {
+/* .filter-list {
   display: flex;
   gap: 8px;
   margin-bottom: 50px;
@@ -672,9 +672,9 @@ img {
   background-color: var(--btn-filter-act-cl);
   border-radius: 4px;
   border: none;
-}
+} */
 
-.project-item {
+/* .project-item {
   flex-basis: calc((100% - 30px * 2) / 3);
   background-color: var(--main-bg-cl);
 }
@@ -739,11 +739,11 @@ img {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--second-txt-cl);
-}
+} */
 
 /* modal window */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -771,9 +771,9 @@ img {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
+} */
 
-.modal-button-close {
+/* .modal-button-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -793,13 +793,13 @@ img {
 .modal-button-close:hover,
 .modal-button-close:focus {
   fill: var(--btn-hero-cl);
-}
+} */
 
-.feedback-user-comment {
+/* .feedback-user-comment {
   resize: none;
-}
+} */
 
-.modal-button {
+/* .modal-button {
   margin: 0 auto;
   display: block;
   width: 216px;
@@ -826,9 +826,9 @@ img {
 
 .modal-button:active {
   background-color: var(--bnt-act-cl);
-}
+} */
 
-.feedback-form-title {
+/* .feedback-form-title {
   display: block;
   text-align: center;
   font-weight: 700;
@@ -955,4 +955,4 @@ img {
   position: absolute;
   top: 5px;
   left: 10px;
-}
+} */
