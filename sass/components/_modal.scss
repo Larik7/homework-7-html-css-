@@ -28,10 +28,6 @@
     border-radius: 4px;
 }
 
-.feedback-user-comment {
-    resize: none;
-}
-
 .feedback-form-title {
     display: block;
     text-align: center;
@@ -70,11 +66,19 @@
     border-radius: 4px;
     outline: transparent;
     transition: border-color var(--anim-slow);
-}
 
-.feedback-form-input:focus,
-.feedback-form-input:hover {
-    border-color: var(--accent-txt-cl);
+    &:focus,
+    &:hover {
+        border-color: var(--accent-txt-cl);
+    }
+
+    &:focus+.feedback-form-icon {
+        fill: var(--accent-txt-cl);
+    }
+    
+    &:hover+.feedback-form-icon {
+        fill: var(--accent-txt-cl);
+    }
 }
 
 .feedback-form-icon {
@@ -84,13 +88,6 @@
     transition: fill var(--anim-slow);
 }
 
-.feedback-form-input:focus+.feedback-form-icon {
-    fill: var(--accent-txt-cl);
-}
-
-.feedback-form-input:hover+.feedback-form-icon {
-    fill: var(--accent-txt-cl);
-}
 
 .feedback-form-agreement {
     position: relative;
@@ -109,18 +106,20 @@
     border-radius: 4px;
     outline: transparent;
     transition: border-color var(--anim-slow);
-}
+    resize: none;
 
-.feedback-user-comment:focus,
-.feedback-user-comment:hover {
-    border-color: var(--accent-txt-cl);
-}
+    &:focus,
+    &:hover {
+        border-color: var(--accent-txt-cl);
+    }
+    
+    &::placeholder {
+        font-size: 12px;
+        line-height: calc(14 / 12);
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
 
-.feedback-user-comment::placeholder {
-    font-size: 12px;
-    line-height: calc(14 / 12);
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
 }
 
 .feedback-form-checkbox:checked+.feedback-checkbox-icon .icon-checked {

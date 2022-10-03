@@ -17,13 +17,15 @@
     background-color: var(--btn-hero-cl);
     cursor: pointer;
     transition: background-color var(--anim-slow);
+
+    &:hover,
+    &:focus {
+        background-color: var(--bnt-act-cl);
+    }
+    
+    &:active {
+        background-color: var(--bnt-act-cl);
+    }
 }
 
-.hero__button:hover,
-.hero__button:focus {
-    background-color: var(--bnt-act-cl);
-}
 
-.hero__button:active {
-    background-color: var(--bnt-act-cl);
-}

@@ -13,12 +13,13 @@
     cursor: pointer;
     background-color: transparent;
     transition: fill var(--anim-slow);
+
+    &:hover,
+    &:focus {
+        fill: var(--btn-hero-cl);
+    }
 }
 
-.modal-button-close:hover,
-.modal-button-close:focus {
-    fill: var(--btn-hero-cl);
-}
 
 .modal-button {
     margin: 0 auto;
@@ -38,13 +39,13 @@
     background-color: var(--btn-hero-cl);
     cursor: pointer;
     transition: background-color var(--anim-slow);
-}
 
-.modal-button:hover,
-.modal-button:focus {
-    background-color: var(--bnt-act-cl);
-}
-
-.modal-button:active {
-    background-color: var(--bnt-act-cl);
+    &:hover,
+    &:focus {
+        background-color: var(--bnt-act-cl);
+    }
+    
+    &:active {
+        background-color: var(--bnt-act-cl);
+    }
 }

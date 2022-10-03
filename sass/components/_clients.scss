@@ -24,10 +24,10 @@
     border-radius: 4px;
     fill: var(--icon-clients);
     transition: border-color var(--anim-slow), fill var(--anim-slow);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-    fill: var(--accent-txt-cl);
-    border: 1px solid #2196F3;
+    &:hover,
+    &:focus {
+        fill: var(--accent-txt-cl);
+        border: 1px solid #2196F3;
+    }
 }
